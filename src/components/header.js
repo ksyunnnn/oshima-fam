@@ -9,7 +9,7 @@ import LogoImage from '../assets/logo.svg';
 
 const Wrapper = styled.div`
   height: 58px;
-  background-color: ${Colors.white};
+  background-color: #fff;
   padding: 8px;
   position: absolute;
   width: 100%;
