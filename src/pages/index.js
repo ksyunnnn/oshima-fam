@@ -8,6 +8,8 @@ import HeroView from '../components/organisms/Hero';
 import HappyWeddingView from '../components/organisms/HappyWedding';
 import MembersView from '../components/organisms/Members';
 import CongratulationsView from '../components/organisms/Congratulations';
+import MovieView from '../components/organisms/Movies';
+import MoreView from '../components/organisms/More';
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +17,7 @@ const IndexPage = () => (
     <HeroView />
     <HappyWeddingView />
     <MembersView />
-    <CongratulationsView />
+    <MoreView />
   </Layout>
 )
 

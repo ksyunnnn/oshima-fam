@@ -28,7 +28,7 @@ export default props => (
       text={'みんなからのメッセージ'}
       />
     <CongratulationsWrapper>
-
+      
     </CongratulationsWrapper>
   </Wrapper>
 )
