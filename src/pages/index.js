@@ -17,6 +17,7 @@ const IndexPage = () => (
     <HeroView />
     <HappyWeddingView />
     <MembersView />
+    <MovieView />
     <MoreView />
   </Layout>
 )

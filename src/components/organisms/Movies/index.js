@@ -26,8 +26,8 @@ export default props => (
       text={'お祝いの動画'}
       />
     <MovieWrapper>
-      <div><iframe width="365" height="205" src="https://www.youtube.com/embed/hu_HDzW1pdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      <div><iframe width="365" height="205" src="https://www.youtube.com/embed/hu_HDzW1pdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div><iframe width="365" height="205" src="https://www.youtube.com/embed/zlKeZg9p4LY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div><iframe width="365" height="205" src="https://www.youtube.com/embed/LyLUW3OGAOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     </MovieWrapper>
   </Wrapper>
 );
