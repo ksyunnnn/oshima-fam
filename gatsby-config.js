@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Haapy Wedding Oshima fam`,
-    description: `for Haapy Wedding`,
+    title: `Happy Wedding Oshima fam`,
+    description: `for Happy Wedding`,
     author: `@ksyunnnn`,
   },
   plugins: [
