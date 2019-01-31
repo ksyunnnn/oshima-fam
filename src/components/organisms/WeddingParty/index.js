@@ -4,7 +4,7 @@ import { Colors } from '../../../variables';
 
 import Heading from '../../molecules/Heading';
 import headingImage from '../../../assets/heading/wedding-party.svg';
-import movie from '../../../assets/movie.mp4';
+import movie from '../../../assets/movie_low.mp4';
 
 const Wrapper = styled.div`
   padding: 70px 8px;
