@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { Colors } from '../../../variables';
 
 import Heading from '../../molecules/Heading';
-import headingImage from '../../../assets/heading/movies.svg';
+import headingImage from '../../../assets/heading/wedding-party.svg';
+import movie from '../../../assets/movie.mp4';
 
 const Wrapper = styled.div`
   padding: 70px 8px;
@@ -25,11 +26,10 @@ export default props => (
   <Wrapper>
     <Heading
       image={headingImage}
-      text={'お祝いの動画'}
+      text={'感謝祭の様子'}
       />
     <MovieWrapper>
-      <div><iframe width="365" height="205" src="https://www.youtube.com/embed/zlKeZg9p4LY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      <div><iframe width="365" height="205" src="https://www.youtube.com/embed/LyLUW3OGAOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <video width="100%" height="100%" controls loop><source src={movie} /></video>
     </MovieWrapper>
   </Wrapper>
 );

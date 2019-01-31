@@ -26,11 +26,6 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <div>
           {children}
-          <Footer>
-            © {new Date().getFullYear()}, Happy Wedding
-            {` `}
-            <a target="_blank" href="https://www.instagram.com/explore/tags/%E3%81%93%E3%81%86%E3%81%B8%E3%81%84%E3%81%A8%E3%82%82%E3%82%88/">#こうへいともよ</a>
-          </Footer>
         </div>
       </>
     )}

@@ -13,8 +13,12 @@ const Wrapper = styled.div`
   background-position: center;
   background-size: cover;
   min-height: 608px;
+  width: 100%;
   padding: 0 ${Distance.mobile};
   padding-top: 50px;
+
+  position: fixed;
+  z-index: -1;
 `;
 
 const MsgWrapper = styled.div`
